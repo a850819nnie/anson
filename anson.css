@@ -1,0 +1,91 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffc0cb;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #ff69b4;
+    padding: 20px 0;
+    position: relative; /* 添加position屬性 */
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #37a4f3;
+    text-align: center;
+  }
+  
+  .hamburger-icon {
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute; /* 使用絕對定位 */
+    top: 50%; /* 距離上側50% */
+    right: 20px; /* 距離右側20px */
+    transform: translateY(-50%); /* 垂直居中 */
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .product {
+    margin-bottom: 30px;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .product p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute; /* 使用絕對定位 */
+    bottom: 0; /* 將 footer 固定在底部 */
+    width: 100%; /* 擴展到頁面寬度 */
+  }
